@@ -1,0 +1,44 @@
+# pipeline_config.yaml
+
+# Chemin vers le dataset brut
+input_dataset: datasets/raw/salaries.csv
+
+# Colonne cible pour le ML/DL
+target: salary_in_usd
+
+# Colonnes catégorielles à encoder
+categorical_features:
+  - experience_level
+  - employment_type
+  - employee_residence
+  - company_location
+
+# Colonnes à exclure (par exemple si tu veux ignorer les identifiants ou champs redondants)
+exclude_columns:
+  - salary          # doublon de salary_in_usd
+  - salary_currency # redondant, on garde que USD
+
+
+# Options d'encodage
+encoding:
+  categorical: onehot     # options: onehot, ordinal, label
+  text: tfidf             # options: tfidf, countvectorizer
+
+# Modèles à tester lors du model choosing
+models_to_test:
+  - RandomForest
+  # - SVM
+  - KNN
+  - LogisticRegression
+  - XGBoost
+
+# Paramètres généraux
+test_size: 0.2
+random_state: 42
+scaling: standard         # options: standard, minmax, none
+
+# Grid Search params (peuvent être surchargés dans optimize.py)
+grid_search:
+  cv: 5
+  scoring: f1_macro
+  n_jobs: -1

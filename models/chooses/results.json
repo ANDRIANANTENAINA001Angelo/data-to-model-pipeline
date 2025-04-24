@@ -1,0 +1,6 @@
+{
+  "LinearRegression": 61893.62432505727,
+  "RandomForest": 61290.336063389084,
+  "GradientBoosting": 61483.5402121236,
+  "KNN": 74210.16319169862
+}

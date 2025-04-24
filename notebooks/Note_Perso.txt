@@ -1,0 +1,57 @@
+Visualization Job & Tips : 
+    - Use dic : abréviation in dataset, signification
+    - 
+
+
+
+DataSet :
+    Visualization : 
+        sns implémenter via plt 
+        - legende: 
+        automatisation via import matplotlib.patches as mpatches and plt.legend(handles)
+        loc parameter, localisation du légende 
+
+        Erreur avec mpatches.Patch()
+        mpatches.Patch() est utilisé pour des légendes de zones colorées (ex: barres, surfaces).
+        Ici, tu traces des lignes, donc il faut utiliser plt.Line2D() au lieu de mpatches.Patch().
+
+
+
+        - boxplot : 
+        auto color and order , personalizable 
+
+        📌 Comment lire un boxplot ?
+        Un boxplot représente la distribution des données avec ces éléments clés :
+
+        📏 Médiane (ligne dans la boîte) → valeur centrale des salaires
+        📦 Boîte (Q1 à Q3) → 50 % des salaires sont entre ces valeurs
+        📉 Whiskers (les traits qui sortent de la boîte) → étendue des données "normales"
+        🔴 Points au-dessus/en dessous → outliers (valeurs anormalement hautes ou basses)
+
+    - time evolution Visualization : 
+        - grouper value in date intervalle (year, month, day) 
+        - use sum or mean or other description of value to view 
+
+
+
+    Salary and Job : 
+
+
+    Salary and Location : 
+
+
+Story telling : 
+    - En moyenne, les experts gange plus que les autres,
+        mais outlier niveau expérience moyen plus haut et nombreux 
+    
+    - En moyenne et en outlier, les Travailleurs en temps plein gagne plus que les autres  
+
+    - L'écart des salaires est énorme (785000) environ 
+
+    - Remote : O% et 100% quasiment égaux, 100% valeur plus haut, 0% en tête pour moyenne  
+
+    - Taille entreprise : les moyennes entreprise (50-250) payent plus chèr en moyenne et pour les outliers aussi. 
+
+    - 
+
+

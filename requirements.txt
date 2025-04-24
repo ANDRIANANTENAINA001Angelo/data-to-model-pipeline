@@ -1,0 +1,7 @@
+pandas
+numpy
+scikit-learn>=1.0
+PyYAML
+joblib
+flask
+flasgger

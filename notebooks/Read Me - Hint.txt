@@ -1,0 +1,34 @@
+Lien dataset : 
+https://www.kaggle.com/datasets/cedricaubin/ai-ml-salaries
+
+To do : Visualization (Analyse, Story Telling) 
+
+📊 1. Tendances Générales des Salaires
+Distribution des salaires en USD 📈 : voir les écarts entre les salaires bas et élevés. 
+Évolution des salaires sur les années 📊 : montrer la tendance salariale. 
+
+🌍 2. Analyse par Localisation
+Top pays avec les meilleurs salaires 🌎 : salaires moyens par employee_residence et company_location.
+Télétravail et salaires 🏠 : Comparer les salaires selon remote_ratio.
+
+
+🏢 3. Impact du Type d’Emploi et de l’Expérience
+Expérience vs salaire 🎓 : voir l’impact de experience_level.
+Taille d’entreprise et salaires 🏢 : comparer company_size.
+Contrat vs Salaire 📃 : Comparaison des types d’emploi (employment_type).
+
+📌 4. Focus sur les Postes les Mieux Payés
+Top 10 des jobs les mieux payés 💰 .
+Salaire vs Popularité des postes 📊 : salaire et nombre d’occurrences de chaque job.
+
+
+🏆 5. Conclusion et Insight Final
+Comprendre les corrélations entre les variables et un petit dashboard récapitulatif en guise de conclusion.
+
+
+
+
+
+
+
+
